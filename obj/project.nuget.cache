@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WjhBxzAATdBBdC8xIlFdycJrGvxskxSTepNKEgT1JSI+IgTgsCYSg8QUn1CoHs7suVizjAit9uS5mvjTp2PSPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\SkyGeGe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kerash\\.nuget\\packages\\microsoft.web.webview2\\1.0.2478.35\\microsoft.web.webview2.1.0.2478.35.nupkg.sha512",
+    "C:\\Users\\Kerash\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
