@@ -38,6 +38,7 @@
             ts_item_setList = new ToolStripMenuItem();
             btn_startBot = new Button();
             browser = new Microsoft.Web.WebView2.WinForms.WebView2();
+            btn_test_listing = new Button();
             toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)browser).BeginInit();
             SuspendLayout();
@@ -125,11 +126,22 @@
             browser.ZoomFactor = 1D;
             browser.NavigationCompleted += webView21_NavigationCompleted;
             // 
+            // btn_test_listing
+            // 
+            btn_test_listing.Location = new Point(445, 27);
+            btn_test_listing.Name = "btn_test_listing";
+            btn_test_listing.Size = new Size(95, 23);
+            btn_test_listing.TabIndex = 3;
+            btn_test_listing.Text = "刷新對話列表";
+            btn_test_listing.UseVisualStyleBackColor = true;
+            btn_test_listing.Click += btn_test_listing_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(813, 527);
+            Controls.Add(btn_test_listing);
             Controls.Add(btn_startBot);
             Controls.Add(toolStrip1);
             Controls.Add(browser);
@@ -158,5 +170,6 @@
         private ToolStripMenuItem ts_item_setList;
         private Button btn_startBot;
         private Microsoft.Web.WebView2.WinForms.WebView2 browser;
+        private Button btn_test_listing;
     }
 }

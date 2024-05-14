@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|c:\\users\\kerash\\documents\\sidep\\skygege\\monitorlistloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:monitorlistloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|c:\\users\\kerash\\documents\\sidep\\skygege\\monitorlistsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\monitorlistsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:monitorlistsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\monitorlistsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:monitorlistsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|c:\\users\\kerash\\documents\\sidep\\skygege\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\monitorlistsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:monitorlistsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|c:\\users\\kerash\\documents\\sidep\\skygege\\pollingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:pollingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|c:\\users\\kerash\\documents\\sidep\\skygege\\monitorlistloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B02084-1379-42FA-B6B0-8C0718AFBFCA}|SkyGeGe.csproj|solutionrelative:monitorlistloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAEBBwHkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:27:03.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MonitorListLoader.cs",
               "DocumentMoniker": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\MonitorListLoader.cs",
               "RelativeDocumentMoniker": "MonitorListLoader.cs",
               "ToolTip": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\MonitorListLoader.cs",
               "RelativeToolTip": "MonitorListLoader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T11:08:24.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MonitorListSetting.cs",
               "DocumentMoniker": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\MonitorListSetting.cs",
               "RelativeDocumentMoniker": "MonitorListSetting.cs",
               "ToolTip": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\MonitorListSetting.cs",
               "RelativeToolTip": "MonitorListSetting.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAewCYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwA4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T10:02:18.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MonitorListSetting.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\MonitorListSetting.cs",
               "RelativeDocumentMoniker": "MonitorListSetting.cs",
@@ -76,33 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PollingResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\PollingResponse.cs",
-              "RelativeDocumentMoniker": "PollingResponse.cs",
-              "ToolTip": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\PollingResponse.cs",
-              "RelativeToolTip": "PollingResponse.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAzwDMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T03:33:30.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAswIIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T10:27:03.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\Kerash\\Documents\\sidep\\SkyGeGe\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

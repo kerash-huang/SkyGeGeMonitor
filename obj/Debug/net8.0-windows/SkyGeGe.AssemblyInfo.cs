@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkyGeGe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa74c7984e31d03a0f80231e3e60045facfb62f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkyGeGe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkyGeGe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

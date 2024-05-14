@@ -1,5 +1,7 @@
 using Microsoft.Web.WebView2.Core;
 using Newtonsoft.Json;
+using HtmlAgilityPack;
+using System.Text.RegularExpressions;
 
 namespace SkyGeGe
 {
@@ -10,6 +12,8 @@ namespace SkyGeGe
         public string skypeMainUrl = "https://web.skype.com/";
         public string skypeLoginUrl = "https://login.live.com/login.srf";
         public List<string> monitorCidList = new List<string>();
+        public List<string> chatList = new List<string>();
+        public List<string> groupList = new List<string>();
 
         public Form1()
         {
@@ -23,7 +27,7 @@ namespace SkyGeGe
             {
                 isLoginSkype = true;
                 addInfoMessage("Skype 已登入.");
-                browser.Visible = false;
+                // browser.Visible = false;
                 setMonitorStatus(true);
             }
             else if (currentURL.IndexOf(skypeLoginUrl) >= 0)
@@ -69,7 +73,6 @@ namespace SkyGeGe
                             {
                                 addInfoMessage("收到新訊息 [群組名稱: " + groupDisplayName + "] " + senderDisplayName + "\r\n   " + messageContent);
                             }
-
                         }
                     }
                     catch (Exception ex)
@@ -123,7 +126,7 @@ namespace SkyGeGe
 
         private void MonitorListSetting_FormClosing(object? sender, FormClosingEventArgs e)
         {
-            
+
         }
 
         private void btn_startBot_Click(object sender, EventArgs e)
@@ -132,5 +135,60 @@ namespace SkyGeGe
             addInfoMessage("載入 Skype 中...");
             browser.Source = new Uri(skypeMainUrl);
         }
+
+        private async void ListingChatRoom()
+        {
+            chatList.Clear();
+            var htmlCode = await browser.CoreWebView2.ExecuteScriptAsync("document.body.innerHTML");
+            if (htmlCode == null)
+            {
+                addInfoMessage("Get Html Code Error");
+                return;
+            }
+            htmlCode = Regex.Unescape(htmlCode);
+            htmlCode = htmlCode.Remove(0, 1);
+            htmlCode = htmlCode.Remove(htmlCode.Length - 1, 1);
+            HtmlAgilityPack.HtmlDocument htmlDocument = new();
+            htmlDocument.LoadHtml(htmlCode);
+
+            HtmlNodeCollection listitemNodes = htmlDocument.DocumentNode.SelectNodes("//div[@role=\"listitem\"]");
+            if (listitemNodes != null)
+            {
+                foreach (var node in listitemNodes)
+                {
+                    try
+                    {
+                        HtmlNode picNode = node.ChildNodes[0].ChildNodes[0].ChildNodes[0];
+                        if (!picNode.Attributes.Contains("title") || String.IsNullOrEmpty(picNode.Attributes["title"].Value))
+                        {
+                            HtmlNode nameNode = node.ChildNodes[0].ChildNodes[0].ChildNodes[0].ChildNodes[1].ChildNodes[0].ChildNodes[0];
+                            if (nameNode.Attributes.Contains("data-text-as-pseudo-element"))
+                            {
+                                string chatName = nameNode.Attributes["data-text-as-pseudo-element"].Value;
+                                if(!String.IsNullOrEmpty(chatName))
+                                {
+                                    chatList.Add(chatName);
+                                }
+                            }
+                        } else
+                        {
+                            string groupName = picNode.GetAttributeValue("title", "");
+                            if (!String.IsNullOrEmpty(groupName))
+                            {
+                                groupList.Add(groupName);
+                            }
+                        }
+                    }
+                }
+            }
+            addInfoMessage("刷新完畢");
+        }
+
+        private void btn_test_listing_Click(object sender, EventArgs e)
+        {
+            ListingChatRoom();
+        }
     }
+
+   
 }
